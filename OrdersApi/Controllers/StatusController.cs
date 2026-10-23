@@ -11,7 +11,7 @@ public class StatusController : ControllerBase
     {
         return Ok(new 
         { 
-            Status = "Online", 
+            Status = "Online New Version", 
             Message = "Orders API е успешно пуснато в AWS EC2!", 
             Timestamp = DateTime.UtcNow 
         });
